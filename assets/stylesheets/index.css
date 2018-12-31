@@ -1,0 +1,43 @@
+.social-icons {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.social-icons li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icons .icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("../images/sprite.svg");
+    opacity: 1;
+    transition: all .3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+.social-icons .icon:hover{
+    opacity: 0.8;
+}
+
+.social-icons .icon-facebook {
+    background-position: 0 0;
+}
+
+.social-icons .icon-instagram {
+    background-position: -64px 0;
+}
+
+.social-icons .icon-twitter {
+    background-position: -128px 0;
+}
+
+.social-icons .icon-codepen {
+    background-position: -192px 0;
+}
+  
+  
